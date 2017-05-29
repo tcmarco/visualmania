@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: whitesmoke;
+}
+
+h1,h3,h4{
+	color:azure;
+}
+
+#splash{
+	background: url("../img/principal3.jpg") no-repeat center top fixed;    
+   	background-size: 1170px 1000px;
+}
+
+#splash h1{
+	font-size:45px;
+	padding-top: 100px;
+	padding-bottom: 400px;
+	font-family: Century Schoolbook ;
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+}
+
+ .affix + .container-fluid {
+      padding-top: 70px;
+}
+
+.btn-facebook {
+	  background: #3B5998;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #263961; 
+}
+
+.btn-facebook:link, .btn-facebook:visited {
+	  color: #fff;
+}
+
+.btn-facebook:active, .btn-facebook:hover {
+	  background: #263961;
+	  color: #fff;
+}
+.navbar{
+	z-index:5;
+	width:1140px;
+}
+
